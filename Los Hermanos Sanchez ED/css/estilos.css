@@ -1,0 +1,440 @@
+*{
+   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1{color: rgb(228, 224, 224); font-size: 50px;}
+
+h2{color: rgb(214, 205, 205);}
+
+h1,.wrap,footer{
+    background-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(255, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+.wrap{
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+    color: rgb(170, 166, 166);
+    font-size: 150%;
+}
+
+.separador2{
+    width: 2%;
+    height: 1px;
+    float: left;
+}
+.centro{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fotoe{
+width: 150px;
+height: 150px;
+}
+body{
+    background-image: url("../IMG/ED.jpeg");
+    background-position: center
+     center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open san';
+}
+.main{
+    height: 1200px;
+}
+
+img{
+    transition: all 0.5s linear;
+    border-style: solid;
+    border-color: red;
+}
+img:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+}
+.main img{
+    width: 49%;
+    float: left;
+}
+
+.Erick{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer{color: rgb(190, 190, 190); font-size: 19px;}
+
+.youtube{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.menu1{
+background: black;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: red;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 3px auto;
+    background: rgb(0, 0, 0);
+
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: rgb(228, 222, 222);
+    padding: 15px 20px;
+    display: block;
+    font-family: 'open sans';
+}
+
+
+.menu li a:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.3s;
+}
+
+.video{
+    position: absolute;
+    background: black;
+    width: 190%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.video li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.menu li:hover .video{
+visibility: visible;
+opacity: 1;
+}
+
+.Redes > li{
+    position: relative;
+    display: inline-block;
+}
+
+.Redes > li > a{
+    text-decoration: none;
+    color: red;
+    padding: 15px 20px;
+    display: block;
+    font-family: 'open sans';
+}
+
+.video li a:hover{
+    color: red;
+    transition: all 0.3s;
+}
+
+.Redes li a:hover{
+    color: red;
+    transition: all 0.3s;
+}
+
+.Redes{
+    position: absolute;
+    background: black;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.Redes li a{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.menu li:hover .Redes{
+visibility: visible;
+opacity: 1;
+}
+
+.item-r{
+    float: right;
+}
+
+.Formulario {
+    background: #000000;
+    color: rgb(172, 169, 169);
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    top: 25%;
+    font-family: 'Luicida Console';
+}
+
+#start{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+td{
+    font-size: 20px;
+}
+
+#email{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+#enviar{
+    color: rgb(47, 0, 255);
+    border-radius: 5px;
+    width: 80px;
+    border: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#reset{
+    color:red;
+    border-radius: 5px;
+    width: 80px;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.seccion {
+    margin: 0;
+    padding: 0;
+    background: url(../IMG/ED.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+
+  
+  .login-box {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: rgb(218, 204, 204);
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff001e;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(187, 4, 4);
+    color: rgb(5, 5, 5);
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: rgb(252, 0, 0);
+  }
+
+  .Registro {
+    margin: 0;
+    padding: 0;
+    background: url(../IMG/ED.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+
+  .loginbox {
+    width: 330px;
+    height: 555px;
+    background: #000;
+    color: rgb(255, 0, 0);
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .loginbox .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .loginbox h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .loginbox label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .loginbox input[type="text"], .login-box input[type="password"] 
+  {
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+  }
+  
+  .loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff001e;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(187, 4, 4);
+    color: rgb(5, 5, 5);
+  }
+  
+  .loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .loginbox a:hover {
+    color: rgb(252, 0, 0);
+  }
+
+  .peque{
+    width: 45px;
+    height: 45px;
+    top: -15px;
+    position: relative;
+  }
+
+  .cancelar{
+    width: 150px;
+    height: 150px;
+    top: -36px;
+    position: relative;
+    left: 40%;
+  }
+
+  .creador{
+    top: 620px;
+    position: relative;
+  }
+
+  .derechos{
+    top: 30px;
+    position: relative;
+  }
+
+  .vinculo{
+    color: #fff;
+  }
