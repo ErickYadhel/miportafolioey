@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencias</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="IMG/pequeña.ico">
+</head>
+<script>
+	function evento_onclick(){
+		alert("Gracias todos los datos han sido enviados correctamente, pronto le estaremos respondiendo....Presione aceptar para actualizar la pagina.");
+	}
+	function event_onclick(){
+		alert("Se acaban de eliminar todos sus datos, proceda a escribirlos nuevamente");
+	}
+</script>
+<p>
+        <center><H1>Los Hermanos Sánchez ED</H1></center>
+    <body>
+        <div class="menu1">
+    <nav class="navegacion">
+		<ul class="menu">
+			<li><a href="index.html">INCIO</a></li>
+            <li><a href="videos.html">VIDEOS</a>
+                <ul class="video">
+                <li><a href="videosR.html">Videos de Risa</a></li>
+                <li><a href="videosSP.html">Series Y Peliculas</a>
+                    <li><a href="Marvel.html">Marvel</a>
+                        <li><a href="DCcomic.html">DC Comic</a>
+                            <li><a href="Game.html">GamePlay</a>
+                <li><a href="Among.html">AMONG US</a>
+                    <li><a href="ultimosv.html">Ultimo Video</a></li>
+                </ul>
+            </li>
+            <li><a href="redes.html">REDES SOCIALES</a>
+                <ul class="Redes">
+                    <li><a href="https://www.youtube.com/channel/UCbXJCx3IPxum17kIQHHnaew/featured">Youtube</a></li>
+                    <li><a href="https://www.instagram.com/los_hermanos_sanchez_ed/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/Los-Hermanos-S%C3%A1nchez-ED-435797023544146/?hc_ref=ARQL3wvmDNIubVZRqbQfcmRokSyUA_QXg_HxK_TvqmLHrPU54Mu2Ekt1Dbgq91AU9dU&fref=nf&__tn__=kC-R">Facebook</a>
+                    </ul>
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=rWQxEuPwTNs&t=999s">TRANSMISIONES</a></li>
+            <li class="item-r" ><a href="login.html"><img class="peque" src="IMg/pequeña.ico" alt=""></a>
+                <ul class="video">
+                <li><a href="login.html">Iniciar Seccion</a></li>
+                <li><a href="NCuenta.html">Registrarte</a></li>
+                <li><a href="encontrar.html">Encontrar cuenta</a>
+                </ul>
+            </li>
+            <li class="item-r"><a href="contacto.html">CONTACTOS</a></li>
+            <li class="item-r"><a href="Registro.html">SUGERENCIAS</a></li>
+        </ul>
+    </nav>
+</div>
+    <br>
+</body>
+
+        <body>
+        <p>
+
+            <center><h1>Formulario de Sugerencias de Usuarios</h1></center>
+    <br>
+    <table class="Formulario">
+        <form onsubmit="evento_onclick()"> 
+            <tr>
+                <td><label>Nombres:</label></td>
+                <td><input id="nombres" name="nombres" type="text" required minlength="3"></td>
+            </tr>
+            <tr>
+                <td><label>Apellidos:</label></td>
+                <td><input id="apellidos" name="apellidos" type="text" required minlength="3"></td>
+            </tr>
+            <tr>
+                <td><label for="start">Fecha de Nacimiento:</label></td>
+                <td><input type="date" id="start" name="trip-start"
+                    value=""
+                    min="" max="" required></td>
+            </tr>
+            <tr>
+                <td><label>Identificacion:</label></td>
+                <td><select id="Identificacion" name="Identificacion" required>
+                    <option name="" value=""></option>
+                    <option name="Administrador" value="Administrador">Administrador</option>
+                    <option name="Editor de contenidos" value="Editor de contenidos">Editor de contenidos</option>
+                    <option name="Suscriptor" value="Suscriptor">Suscriptor</option>
+                    <option name="No Suscrito" value="No Suscrito">No Suscrito</option>
+                    <option name="Otros" value="Otros">Otros</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Género:</label></td>
+                <td><select id="sexo" name="sexo" required>
+                        <option name="" value=""></option>
+                        <option name="masculino" value="masculino">Masculino</option>
+                        <option name="femenino" value="femenino">Femenino</option>
+                        </select></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input id="email" name="email" required minlength="6"></td>
+            </tr>
+            <tr>
+                <td><label>Teléfono:</label></td>
+                <td><input id="telefono" name="telefono" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label>Sugerencias:</label></td>
+                <td><textarea onselect="selecion()" required></textarea></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><input id="enviar" name="enviar" type="submit" value="Envia"/></td>
+                <td><input id="reset" type="reset" value="Reset" onclick="event_onclick()"/></td>
+            </tr>
+        </form>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+            
+        <footer>
+            <small>&copy; Derechos Reservados 2020 - Creado por <b>Erick Yadhel</b> <A HREF="https://tecno-actual-erick.blogspot.com/" class="vinculo">click aqui para ver mas contenidos</A>   </small>
+        </footer>
+</body>
+</html>
