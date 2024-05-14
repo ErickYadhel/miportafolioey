@@ -213,13 +213,13 @@ a.btn-order:hover {
 	-o-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-a.btn-send {
+input.btn-send {
 	color: #e73131;
 	border: 2px solid #e73131;
 	padding: 2% 0%;
 	font-size: 15px;
 }
-a.btn-send:hover {
+input.btn-send:hover {
 	background:#e73131;
 	color:#fff;
 	transition:all 0.5s;
